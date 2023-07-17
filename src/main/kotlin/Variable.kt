@@ -36,7 +36,7 @@ fun main() {
     // adalah sebuah data yang disetting untuk keperluan GLOBAL
     // Global artinya bisa diakses dimanapun
 
-    println("Selamat datang di $APP version $VERSION")
+    println("Selamat datang di $APP version $VERSION database $DBASE")
 
 
 }
@@ -44,3 +44,4 @@ fun main() {
 // ini adalah varibel constant global
 const val APP = "Aplikasi Kotlin"
 const val VERSION = "1.0.0"
+const val DBASE = "3.44.5"
